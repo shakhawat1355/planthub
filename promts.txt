@@ -1,0 +1,3 @@
+create a web page  with a 5 cards with nav bar.
+ each card has an image in the left side and a text box with 
+title description in the right side. use only html and css.
