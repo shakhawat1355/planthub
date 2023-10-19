@@ -231,3 +231,44 @@ dt {
 }
 
 /* You can customize these styles further to match your design. */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.acknowledgement, .contact-social-media {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.acknowledgement h3, .contact-social-media h3 {
+    font-size: 1.2rem;
+}
+
+.acknowledgement p, .contact-social-media p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.contact-social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-social-media li {
+    margin: 10px 0;
+}
+
+.contact-social-media a {
+    color: #fff;
+    text-decoration: none;
+}

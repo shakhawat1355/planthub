@@ -1,0 +1,185 @@
+/* Your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3d944d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+/* Title styles */
+.title h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Navigation menu styles */
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.profile-picture {
+    width: 80%;
+    max-width: 300px;
+    /* You can adjust the maximum width as per your need */
+    margin: auto;
+    /* Centering the image block */
+    border: 5px solid #0a500d;
+    /* Border around image. Choose color or remove */
+    border-radius: 10px;
+    /* Rounded border. Adjust or remove */
+    overflow: hidden;
+    /* Ensure that image doesn’t overflow rounded corners */
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+.email-button {
+    display: inline-block;
+    background-color: #f36004;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.email-button:hover {
+    background-color: #a08945;
+}
+
+
+.about-me {
+    text-align: center;
+}
+
+.additional-information {
+    text-align: center;
+}
+
+
+
+.table-div {
+    width: 100%;
+    max-width: 600px;
+    /* Adjust as per your need */
+    margin: auto;
+    /* Centers the table */
+    border: 5px solid #4CAF50;
+    /* Thick border with a green color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    /* Box shadow */
+    border-radius: 10px;
+    /* Rounded corners for the box */
+    overflow: hidden;
+    /* Ensures content sticks to border-radius */
+    padding: 10px;
+    /* Space inside the box */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    /* Border for table, rows and cells */
+    padding: 8px;
+    /* Padding within cells */
+    text-align: left;
+}
+
+table th {
+    background-color: #a1d029;
+    /* Green background for headers */
+    color: white;
+    /* White text for headers */
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Light grey for every other row */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.acknowledgement, .contact-social-media {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.acknowledgement h3, .contact-social-media h3 {
+    font-size: 1.2rem;
+}
+
+.acknowledgement p, .contact-social-media p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.contact-social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-social-media li {
+    margin: 10px 0;
+}
+
+.contact-social-media a {
+    color: #fff;
+    text-decoration: none;
+}
