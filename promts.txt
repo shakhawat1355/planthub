@@ -1,3 +1,54 @@
 create a web page  with a 5 cards with nav bar.
  each card has an image in the left side and a text box with 
 title description in the right side. use only html and css.
+
+
+
+        <div class="card">
+            <div class="card-image">
+                <figure>
+                    <img src="assets/plants//Actinodaphne/pic1.JPG" alt="Example Image">
+                    <figcaption>Example Image Caption</figcaption>
+                </figure>
+            </div>
+            <div class="card-content">
+                <h1>Card Example</h1>
+                <section>
+                    <h2>About This Card</h2>
+                    <p>This card is an example of a well-structured HTML document with proper CSS. It includes headings,
+                        sections, asides, lists, and images.</p>
+                </section>
+
+                <h2>Lists</h2>
+                <ol>
+                    <li>Ordered List Item 1</li>
+                    <li>Ordered List Item 2</li>
+                    <li>Ordered List Item 3</li>
+                </ol>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <figure>
+                    <img src="assets/plants//Actinodaphne/pic1.JPG" alt="Example Image">
+                    <figcaption>Example Image Caption</figcaption>
+                </figure>
+            </div>
+            <div class="card-content">
+                <h1>Card Example</h1>
+                <section>
+                    <h2>About This Card</h2>
+                    <p>This card is an example of a well-structured HTML document with proper CSS. It includes headings,
+                        sections, asides, lists, and images.</p>
+                </section>
+
+                <h2>Lists</h2>
+                <ol>
+                    <li>Ordered List Item 1</li>
+                    <li>Ordered List Item 2</li>
+                    <li>Ordered List Item 3</li>
+                </ol>
+
+            </div>
+        </div>
