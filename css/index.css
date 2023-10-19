@@ -45,15 +45,20 @@ header {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background-image: url("assets/wp1.jpeg");
-    background-size: cover; /* Adjust to your needs, e.g., 'contain' or '100% 100%' */
-    background-repeat: no-repeat;
-    background-position: center center;
+    text-align: center;
 }
-
+.containerDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #bffdf9;
+    margin-left: 23rem;
+    width: 50%;
+}
 .card {
     display: flex;
     border: 2px solid #333;
